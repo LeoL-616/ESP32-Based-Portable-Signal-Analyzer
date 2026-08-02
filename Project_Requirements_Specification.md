@@ -38,7 +38,7 @@ The project objectives are:
 The system shall acquire analog input signals and convert them into digital data using an ADC for subsequent processing.
 
 
-## Signal Conditioning
+### Signal Conditioning
 The system shall provide appropriate signal conditioning before ADC conversion, including signal amplification, filtering, and voltage level adjustment.
 
 
