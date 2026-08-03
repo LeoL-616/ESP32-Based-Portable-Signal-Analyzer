@@ -57,8 +57,69 @@ The system shall provide software tools to:
 - Estimate dominant signal frequencies.
 
 
-7. Performance Requirements
-8. Hardware Requirements
-9. Software Requirements
-10. Constraints
-11. Testing and Success Criteria
+
+## 4. Performance Requirements
+
+| Parameter | Target |
+|---|---|
+| Sampling frequency | ≥20 kHz |
+| ADC resolution | 12-bit |
+| Input frequency range | 10 Hz - 10 kHz |
+| Communication | UART/USB |
+| Operating voltage | 3.3 V |
+
+  
+
+## 5. Hardware Requirements
+
+The hardware system shall include:
+
+- A microcontroller with ADC capability.
+- An analog front end based by an operational amplifier, a low-pass filter, and a bias current circuit.
+- Communication interface between hardware and computer.
+- A prototype PCB for the final design.
+
+
+
+## 6. Software Requirements
+
+The software system shall include:
+
+
+### Embedded Firmware
+
+The embedded firmware shall:
+
+- Configure ADC sampling.
+- Acquire analog data.
+- Transmit sampled data.
+
+
+### Computer software
+
+The software shall:
+
+- Receive data from the microcontroller.
+- Display waveform data.
+- Perform FFT-based frequency analysis.
+
+
+
+## 7. Constraints
+
+The project shall consider the following constraints:
+
+- The development period is limited to approximately nine weeks.
+- The project should use low-cost components.
+
+
+
+## 8. Testing and Success Criteria
+
+The project will be considered successful if:
+
+1. The system can successfully acquire analog signals.
+2. The sampled waveform can be displayed on a computer.
+3. The FFT analysis can correctly identify dominant frequency components.
+4. A functional hardware prototype is demonstrated.
+5. Complete documentation is provided.
