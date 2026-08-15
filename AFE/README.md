@@ -27,7 +27,7 @@ AC Coupling
   ↓
 Input Protection
   ↓
-Programmable Gain
+adjustable Gain
   ↓
 Output Low-Pass Filter
   ↓
@@ -154,31 +154,129 @@ A value of 4.3 Ω was therefore retained as a compromise between damping and pre
 
 
 
-
-
-
-### AC Coupling
-
-### Input Protection
-
-## Programmable Gain Stage
-
-### Gain = 1
-
-### Gain = 10
-
-### Gain = 100
-
-## Output Low-Pass Filter
-
 ## Simulation and Verification
+
+The AFE was simulated in LTspice to verify its key electrical characteristics before proceeding to the ADC interface design.
+
+The verification covers:
+
+- Gain settings
+- DC bias
+- Input protection
+- Maximum input range
+- Frequency response
+- Component tolerance
 
 ### Gain Verification
 
-### Input Protection
+The adjustable gain stage was simulated for all three gain settings.
+
+Theoretical closed-loop gains are:
+
+| Gain Setting | Theoretical Gain | Theoretical Gain (dB) |
+| ------------: | ---------------: | --------------------: |
+| 1×            | 1                | 0 dB                  |
+| 10×           | 10               | 20 dB                 |
+| 100×          | 100              | 40 dB                 |
+
+The simulated mid-band frequency responses are consistent with the expected gain settings.
+
+![AFE Gain Response](results/gain/gain_10.png)
+
+### VBIAS Verification
+
+The VBIAS reference was simulated to verify the operating point of the AFE.
+
+The target bias voltage is:
+
+$$
+V_{BIAS}=1.65\ V
+$$
+
+The simulated AFE stages maintain a bias voltage of approximately 1.65 V under the tested gain configurations.
+
+### Input Protection Verification
+
+The input protection network was evaluated under a simulated 5 V fault condition. The protection network consists of the 2.2 kΩ current-limiting resistor and BAT54 Schottky diodes.
+
+The simulated current through the protection network was approximately:
+
+$$
+I_{fault}\approx300\ \mu A
+$$
+
+And the voltage on the positive node of the opamp were limited around -0.2 V to 3.5 V.
+
+This confirms that the current-limiting resistor significantly limits the fault current before it reaches the amplifier input.
+
+![Input Protection Simulation](results/input_protection/5V_fault.png)
+
+
 
 ### Frequency Response
 
-### Component Tolerance
+The AFE frequency response was simulated over a wide frequency range to evaluate the behaviour of the input high-pass response and output low-pass filter.
+
+The target signal band is:
+
+$$
+10\ Hz \leq f \leq 10\ kHz
+$$
+
+The output LC filter uses:
+
+- \(R_9=4.3\ \Omega\)
+- \(L=22\ \mu H\)
+- \(C=4.7\ \mu F\)
+
+The selected 4.3 Ω damping resistor provides a compromise between reducing LC resonance and preserving signal transmission near the upper end of the target frequency range.
+
+A small resonant peak is present around 6 kHz in the 100× gain configuration. The peak is approximately 2 dB above the mid-band response.
+
+Higher damping resistance values were evaluated during the design process. Although larger resistance values reduced the resonant peak, they also introduced additional attenuation near 10 kHz. Since the AFE is intended for signal detection and conditioning rather than precision amplitude measurement, the 4.3 Ω value was retained.
+
+![AFE Frequency Response](results/frequency_response/AFE_frequency_response.png)
+
+### Component Tolerance Analysis
+
+Component tolerances were evaluated using LTspice to assess their effect on the AFE frequency response.
+
+The assumed component tolerances are:
+
+| Component Type | Tolerance |
+| -------------- | --------: |
+| Resistors      | ±1%       |
+| Capacitors     | ±10%      |
+| Inductor       | ±20%      |
+
+The tolerance analysis was performed by sweeping the component values within their specified tolerance ranges.
+
+The resulting frequency responses were compared at key frequencies, particularly 10 kHz and 20 kHz, to evaluate the variation introduced by component tolerances.
+
+![AFE Tolerance Analysis](results/tolerance/frequency_response_tolerance.png)
 
 ## Final AFE Parameters
+
+| Parameter | Final Value |
+| --------- | ----------: |
+| Supply Voltage | 3.3 V |
+| VBIAS | 1.65 V |
+| Input Signal Range | 10 Hz – 10 kHz |
+| Maximum Input | 1.45 V |
+| Gain Settings | 1× / 10× / 100× |
+| Input Coupling Capacitor | 10 nF |
+| Input Protection Resistor | 2.2 kΩ |
+| Gain-Stage Capacitor | 22 µF |
+| Output Damping Resistor | 4.3 Ω |
+| Output Inductor | 22 µH |
+| Output Capacitor | 4.7 µF |
+
+## Design Status
+
+The AFE schematic and LTspice simulations have been completed.
+
+The AFE has been verified for gain, biasing, input protection, maximum input conditions, frequency response, and component tolerance.
+
+The next stage of the project is the design of the ESP32 ADC interface.
+
+
