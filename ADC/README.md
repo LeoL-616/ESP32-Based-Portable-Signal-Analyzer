@@ -9,7 +9,7 @@ The current goal is to capture a waveform and identify its dominant frequency. A
 
 ## Interface
 
-The AFE output is connected to the ESP32 as shown in 
+The AFE output is connected to the ESP32 as shown in [the interface diagram](schematic/AFE_to_ESP32.svg).
 
 | Signal | Connection | Notes |
 | --- | --- | --- |
