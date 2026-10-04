@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1200 700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:affinity="https://www.affinity.studio/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <rect x="0" y="0" width="1200" height="700" style="fill:white;"/>
+    <g transform="matrix(1,0,0,1,60,55)">
+        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,43,77);">AFE → ESP32 <tspan x="109.383px 120.055px " y="0px 0px ">AD</tspan>C interface</text>
+    </g>
+    <g transform="matrix(1,0,0,1,60,85)">
+        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(66,82,110);">Block-level connection for the validated acquisition chain</text>
+    </g>
+    <rect x="60" y="205" width="230" height="190" style="fill:rgb(234,244,255);stroke:rgb(31,78,121);stroke-width:2.5px;"/>
+    <g transform="matrix(1,0,0,1,175,250)">
+        <text x="-48.473px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,43,77);">Signal source</text>
+    </g>
+    <g transform="matrix(1,0,0,1,175,290)">
+        <text x="-67.152px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,43,77);">Function generator</text>
+    </g>
+    <g transform="matrix(1,0,0,1,175,318)">
+        <text x="-80.492px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(66,82,110);">current validation input</text>
+    </g>
+    <path d="M100,340L250,340" style="fill:none;fill-rule:nonzero;stroke:rgb(107,114,128);stroke-width:2px;"/>
+    <g transform="matrix(1,0,0,1,175,370)">
+        <text x="-69.367px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,43,77);">Future: microphone</text>
+    </g>
+    <rect x="395" y="150" width="340" height="300" style="fill:rgb(238,248,238);stroke:rgb(31,78,121);stroke-width:2.5px;"/>
+    <g transform="matrix(1,0,0,1,565,195)">
+        <text x="-81.82px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,43,77);">Analog front end (AFE)</text>
+    </g>
+    <path d="M694,220C697.311,220 700,222.689 700,226L700,256C700,259.311 697.311,262 694,262L436,262C432.689,262 430,259.311 430,256L430,226C430,222.689 432.689,220 436,220L694,220Z" style="fill:white;stroke:rgb(106,163,111);stroke-width:1.5px;"/>
+    <g transform="matrix(1,0,0,1,565,247)">
+        <text x="-106.957px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,43,77);">AC coupling + input protection</text>
+    </g>
+    <path d="M694,280C697.311,280 700,282.689 700,286L700,316C700,319.311 697.311,322 694,322L436,322C432.689,322 430,319.311 430,316L430,286C430,282.689 432.689,280 436,280L694,280Z" style="fill:white;stroke:rgb(106,163,111);stroke-width:1.5px;"/>
+    <g transform="matrix(1,0,0,1,565,307)">
+        <text x="-114.289px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,43,77);">Programmable gain: 1 / 10 / 100</text>
+    </g>
+    <path d="M694,340C697.311,340 700,342.689 700,346L700,376C700,379.311 697.311,382 694,382L436,382C432.689,382 430,379.311 430,376L430,346C430,342.689 432.689,340 436,340L694,340Z" style="fill:white;stroke:rgb(106,163,111);stroke-width:1.5px;"/>
+    <g transform="matrix(1,0,0,1,565,367)">
+        <g transform="matrix(16,0,0,16,44.914062,0)">
+        </g>
+        <g transform="matrix(16,0,0,16,49.359375,0)">
+        </g>
+        <text x="-75.141px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,43,77);">Output low-pass ﬁlter</text>
+    </g>
+    <g transform="matrix(1,0,0,1,565,415)">
+        <text x="-106.949px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(66,82,110);">3.3 V supply · VBIAS = 1.65 V</text>
+    </g>
+    <rect x="840" y="150" width="300" height="300" style="fill:rgb(255,245,230);stroke:rgb(31,78,121);stroke-width:2.5px;"/>
+    <g transform="matrix(1,0,0,1,990,195)">
+        <text x="-52.91px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,43,77);">Classic ESP32</text>
+    </g>
+    <path d="M1099,225C1102.311,225 1105,227.689 1105,231L1105,287C1105,290.311 1102.311,293 1099,293L881,293C877.689,293 875,290.311 875,287L875,231C875,227.689 877.689,225 881,225L1099,225Z" style="fill:white;stroke:rgb(210,145,53);stroke-width:1.5px;"/>
+    <g transform="matrix(1,0,0,1,990,252)">
+        <text x="-79.371px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,43,77);">GPIO34 = <tspan x="-4.215px 6.457px " y="0px 0px ">AD</tspan>C1_CH6</text>
+    </g>
+    <g transform="matrix(1,0,0,1,990,278)">
+        <text x="-66.258px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(66,82,110);">input-only <tspan x="6.68px 17.352px " y="0px 0px ">AD</tspan>C pin</text>
+    </g>
+    <path d="M1099,315C1102.311,315 1105,317.689 1105,321L1105,353C1105,356.311 1102.311,359 1099,359L881,359C877.689,359 875,356.311 875,353L875,321C875,317.689 877.689,315 881,315L1099,315Z" style="fill:white;stroke:rgb(210,145,53);stroke-width:1.5px;"/>
+    <g transform="matrix(1,0,0,1,990,343)">
+        <text x="-89.246px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,43,77);">12-bit · attenuation 1<tspan x="56.332px 65.23px " y="0px 0px ">1 </tspan>dB</text>
+    </g>
+    <g transform="matrix(1,0,0,1,990,405)">
+        <text x="-79.809px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(66,82,110);">I2S <tspan x="-52.23px -41.559px " y="0px 0px ">AD</tspan>C mode + DMA</text>
+    </g>
+    <path d="M290,300L395,300" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,121);stroke-width:4px;"/>
+    <g transform="matrix(0.917981,0,0,0.917981,343.089527,288.478592)">
+        <text x="-52.492px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(66,82,110);">analogue input</text>
+    </g>
+    <path d="M735,300L840,300" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,121);stroke-width:4px;"/>
+    <g transform="matrix(1,0,0,1,789.318873,288.389918)">
+        <text x="-36.895px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,43,77);">AFE_OUT</text>
+    </g>
+    <g transform="matrix(0.848009,0,0,0.848009,788.934996,316.366153)">
+        <text x="-29.066px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(66,82,110);">0–3.3 V<tspan x="24.621px " y="0px ">,</tspan></text>
+        <text x="-60.93px" y="16px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(66,82,110);">centred at 1.65 V</text>
+    </g>
+    <g transform="matrix(0.000002,0,0,1.271618,990,-122.228102)">
+        <path d="M990,450L990,520L1095,520" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,121);stroke-width:4px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-47.5,-0.98674)">
+        <rect x="920" y="540" width="235" height="80" style="fill:rgb(244,244,245);stroke:rgb(31,78,121);stroke-width:2.5px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,990.5,571.01326)">
+        <text x="-61.809px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,43,77);">PC / Python tools</text>
+    </g>
+    <g transform="matrix(1,0,0,1,990.5,600.01326)">
+        <text x="-106.832px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(66,82,110);">UAR<tspan x="-73.34px -63.855px -59.41px " y="0px 0px 0px ">T p</tspan>ackets → NPZ → FFT</text>
+    </g>
+    <g transform="matrix(1,0,0,1,1080,505)">
+        <text x="-72.172px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(66,82,110);">UAR<tspan x="-38.68px -29.195px -24.75px " y="0px 0px 0px ">T b</tspan>inary stream</text>
+    </g>
+    <g transform="matrix(0.000002,0,0,1,565,0)">
+        <path d="M565,150L565,120L990,120L990,150" style="fill:none;fill-rule:nonzero;stroke:rgb(107,114,128);stroke-width:2px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,564.734375,116.632812)">
+        <text x="-44.027px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,43,77);">3.3 V supply</text>
+    </g>
+    <g transform="matrix(1,0,0,0.647215,0,158.753297)">
+        <path d="M565,450L565,610" style="fill:none;fill-rule:nonzero;stroke:rgb(75,85,99);stroke-width:3px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-425,-66.445617)">
+        <path d="M950,620L1030,620" style="fill:none;fill-rule:nonzero;stroke:rgb(75,85,99);stroke-width:3px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-425,-66.445617)">
+        <path d="M960,632L1020,632" style="fill:none;fill-rule:nonzero;stroke:rgb(75,85,99);stroke-width:3px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-425,-66.445617)">
+        <path d="M970,644L1010,644" style="fill:none;fill-rule:nonzero;stroke:rgb(75,85,99);stroke-width:3px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,534.450523,506.155068)">
+        <text x="-17.777px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,43,77);">GND</text>
+    </g>
+</svg>
