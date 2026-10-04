@@ -76,11 +76,6 @@ The firmware performs the following actions in order:
 Keeping the format in one dedicated module prevents `main.c` from becoming responsible for both hardware acquisition and byte-level serialisation.
 
 
-## Current limitations
-
--
-
-
 
 
 
