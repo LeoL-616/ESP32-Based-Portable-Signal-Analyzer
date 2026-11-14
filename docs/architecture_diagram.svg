@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1600 980" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:affinity="https://www.affinity.studio/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <rect x="0" y="0" width="1600" height="980" style="fill:white;"/>
+    <g transform="matrix(1,0,0,1,800,48)">
+        <text x="-437.247px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:36px;fill:rgb(23,32,51);">ESP32-Based Signal <tspan x="-93.015px -69.003px " y="0px 0px ">Ac</tspan>quisition and <tspan x="159.161px 183.173px " y="0px 0px ">An</tspan>alysis Platform</text>
+    </g>
+    <g transform="matrix(1,0,0,1,800,76)">
+        <text x="-71.137px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(94,107,122);">System <tspan x="-14.23px -3.559px " y="0px 0px ">Ar</tspan>chitecture</text>
+    </g>
+    <path d="M1018,115C1024.623,115 1030,120.377 1030,127L1030,753C1030,759.623 1024.623,765 1018,765L47,765C40.377,765 35,759.623 35,753L35,127C35,120.377 40.377,115 47,115L1018,115Z" style="fill:rgb(251,253,255);stroke:rgb(37,99,235);stroke-width:2px;stroke-dasharray:8,7;"/>
+    <g transform="matrix(1,0,0,1,532,145)">
+        <text x="-78.379px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(29,78,216);">HARDW<tspan x="-18.535px -7.863px " y="0px 0px ">AR</tspan>E DEVICE</text>
+    </g>
+    <path d="M1553,115C1559.623,115 1565,120.377 1565,127L1565,753C1565,759.623 1559.623,765 1553,765L1067,765C1060.377,765 1055,759.623 1055,753L1055,127C1055,120.377 1060.377,115 1067,115L1553,115Z" style="fill:rgb(251,253,255);stroke:rgb(5,150,105);stroke-width:2px;stroke-dasharray:8,7;"/>
+    <g transform="matrix(1,0,0,1,1310,145)">
+        <text x="-70.078px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(4,120,87);">HOST<tspan x="-25.922px -21.477px " y="0px 0px "> C</tspan>OMPUTER</text>
+    </g>
+    <path d="M210,250C215.519,250 220,254.481 220,260L220,520C220,525.519 215.519,530 210,530L75,530C69.481,530 65,525.519 65,520L65,260C65,254.481 69.481,250 75,250L210,250Z" style="fill:rgb(250,245,255);stroke:rgb(147,51,234);stroke-width:1.6px;"/>
+    <g transform="matrix(1,0,0,1,142,286)">
+        <text x="-55.27px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(126,34,206);">SIGNAL<tspan x="2.824px 7.27px " y="0px 0px "> I</tspan>NPUT</text>
+    </g>
+    <g transform="matrix(1,0,0,1,142,420)">
+        <text x="-62.703px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,32,51);">Known test signal</text>
+    </g>
+    <g transform="matrix(1,0,0,1,142,444)">
+        <text x="-67.152px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(75,89,105);">Function generator</text>
+    </g>
+    <g transform="matrix(1,0,0,1,142.437537,458.820312)">
+        <text x="-41.801px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(75,89,105);">Microphone</text>
+    </g>
+    <path d="M568,190C574.623,190 580,195.377 580,202L580,608C580,614.623 574.623,620 568,620L282,620C275.377,620 270,614.623 270,608L270,202C270,195.377 275.377,190 282,190L568,190Z" style="fill:rgb(255,251,235);stroke:rgb(217,119,6);stroke-width:1.6px;"/>
+    <g transform="matrix(1,0,0,1,425,224)">
+        <text x="-105.34px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(180,83,9);">ANALOG FRONT<tspan x="20.012px 25.34px " y="0px 0px ">-E</tspan>ND (AFE)</text>
+    </g>
+    <path d="M541,250C544.863,250 548,253.137 548,257L548,319C548,322.863 544.863,326 541,326L309,326C305.137,326 302,322.863 302,319L302,257C302,253.137 305.137,250 309,250L541,250Z" style="fill:rgb(255,247,214);stroke:rgb(234,179,8);stroke-width:1.6px;"/>
+    <g transform="matrix(1,0,0,1,425,280)">
+        <text x="-64.492px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,32,51);">Input Conditioning</text>
+    </g>
+    <g transform="matrix(1,0,0,1,425,304)">
+        <text x="-124.074px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(75,89,105);">AC coupling, VBIAS and protection</text>
+    </g>
+    <path d="M541,372C544.863,372 548,375.137 548,379L548,441C548,444.863 544.863,448 541,448L309,448C305.137,448 302,444.863 302,441L302,379C302,375.137 305.137,372 309,372L541,372Z" style="fill:rgb(255,247,214);stroke:rgb(234,179,8);stroke-width:1.6px;"/>
+    <g transform="matrix(1,0,0,1,425,402)">
+        <text x="-79.609px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,32,51);">Selectable Gain Stage</text>
+    </g>
+    <g transform="matrix(1,0,0,1,425,426)">
+        <text x="-56.715px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(75,89,105);">×1, ×10 or ×100</text>
+    </g>
+    <path d="M541,494C544.863,494 548,497.137 548,501L548,563C548,566.863 544.863,570 541,570L309,570C305.137,570 302,566.863 302,563L302,501C302,497.137 305.137,494 309,494L541,494Z" style="fill:rgb(255,247,214);stroke:rgb(234,179,8);stroke-width:1.6px;"/>
+    <g transform="matrix(1,0,0,1,425,524)">
+        <text x="-81.363px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,32,51);">Output Low-Pass Filter</text>
+    </g>
+    <g transform="matrix(1,0,0,1,425,548)">
+        <g transform="matrix(16,0,0,16,-80.472656,0)">
+        </g>
+        <g transform="matrix(16,0,0,16,-76.027344,0)">
+        </g>
+        <text x="-105.371px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(75,89,105);">LC ﬁlter with damping resistor</text>
+    </g>
+    <path d="M425,326L425,372" style="fill:none;fill-rule:nonzero;stroke:rgb(183,121,31);stroke-width:2px;"/>
+    <path d="M425,448L425,494" style="fill:none;fill-rule:nonzero;stroke:rgb(183,121,31);stroke-width:2px;"/>
+    <path d="M958,190C964.623,190 970,195.377 970,202L970,608C970,614.623 964.623,620 958,620L647,620C640.377,620 635,614.623 635,608L635,202C635,195.377 640.377,190 647,190L958,190Z" style="fill:rgb(239,246,255);stroke:rgb(37,99,235);stroke-width:1.6px;"/>
+    <g>
+        <g transform="matrix(1,0,0,1,6.868674,53.191703)">
+            <circle cx="129.002" cy="323.31" r="13.498" style="fill:rgb(126,34,206);fill-opacity:0.09;stroke:black;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,1.614319,0.294759)">
+            <g transform="matrix(-1,0,-0,-1,261.603545,699.51674)">
+                <path d="M120.519,323.31L121.959,323.31C121.959,323.31 121.666,319.641 124.44,319.476C127.214,319.311 127.387,323.31 127.387,323.31" style="fill:none;stroke:black;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,6.82898,52.896944)">
+                <path d="M120.519,323.31L121.959,323.31C121.959,323.31 121.666,319.641 124.44,319.476C127.214,319.311 127.387,323.31 127.387,323.31" style="fill:none;stroke:black;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,802,224)">
+        <text x="-100.621px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(29,78,216);">ESP32 DA<tspan x="-25.324px -16.738px -6.949px -3.387px 7.285px " y="0px 0px 0px 0px 0px ">TA AC</tspan>QUISITION</text>
+    </g>
+    <path d="M928,250C931.863,250 935,253.137 935,257L935,313C935,316.863 931.863,320 928,320L677,320C673.137,320 670,316.863 670,313L670,257C670,253.137 673.137,250 677,250L928,250Z" style="fill:rgb(219,234,254);stroke:rgb(96,165,250);stroke-width:1.6px;"/>
+    <g transform="matrix(1,0,0,1,802,278)">
+        <text x="-36.906px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,32,51);">ADC Input</text>
+    </g>
+    <g transform="matrix(1,0,0,1,802,302)">
+        <text x="-77.363px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(75,89,105);">GPIO34 · <tspan x="-6.223px 4.449px " y="0px 0px ">AD</tspan>C1_CH6</text>
+    </g>
+    <path d="M928,360C931.863,360 935,363.137 935,367L935,433C935,436.863 931.863,440 928,440L677,440C673.137,440 670,436.863 670,433L670,367C670,363.137 673.137,360 677,360L928,360Z" style="fill:rgb(219,234,254);stroke:rgb(96,165,250);stroke-width:1.6px;"/>
+    <g transform="matrix(1,0,0,1,802,389)">
+        <g transform="matrix(16,0,0,16,88.214844,0)">
+        </g>
+        <g transform="matrix(16,0,0,16,92.488281,0)">
+        </g>
+        <text x="-110.988px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,32,51);">ADC Sampling and DMA<tspan x="64.199px 68.645px " y="0px 0px "> B</tspan>uﬀer</text>
+    </g>
+    <g transform="matrix(1,0,0,1,802,414)">
+        <text x="-114.285px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(75,89,105);">I2S built-in <tspan x="-35.129px -24.457px " y="0px 0px ">AD</tspan>C acquisition path</text>
+    </g>
+    <path d="M928,480C931.863,480 935,483.137 935,487L935,563C935,566.863 931.863,570 928,570L677,570C673.137,570 670,566.863 670,563L670,487C670,483.137 673.137,480 677,480L928,480Z" style="fill:rgb(219,234,254);stroke:rgb(96,165,250);stroke-width:1.6px;"/>
+    <g transform="matrix(1,0,0,1,802,510)">
+        <text x="-98.703px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,32,51);">Binary Packet <tspan x="4.164px 13.344px 18.672px " y="0px 0px 0px ">Tra</tspan>nsmission</text>
+    </g>
+    <g transform="matrix(1,0,0,1,802,534)">
+        <text x="-108.648px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(75,89,105);">400 samples per UAR<tspan x="47.578px 57.062px 61.508px " y="0px 0px 0px ">T p</tspan>acket</text>
+    </g>
+    <g transform="matrix(1,0,0,1,802,554)">
+        <text x="-111.176px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(96,112,131);">Sample-rate metadata included</text>
+    </g>
+    <path d="M802,320L802,360" style="fill:none;fill-rule:nonzero;stroke:rgb(37,99,235);stroke-width:2.3px;"/>
+    <path d="M802,440L802,480" style="fill:none;fill-rule:nonzero;stroke:rgb(37,99,235);stroke-width:2.3px;"/>
+    <path d="M1514,190C1520.623,190 1526,195.377 1526,202L1526,678C1526,684.623 1520.623,690 1514,690L1106,690C1099.377,690 1094,684.623 1094,678L1094,202C1094,195.377 1099.377,190 1106,190L1514,190Z" style="fill:rgb(240,253,244);stroke:rgb(34,197,94);stroke-width:1.6px;"/>
+    <g transform="matrix(1,0,0,1,1310,224)">
+        <text x="-86.688px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(21,128,61);">PYTHON HOST<tspan x="28.586px " y="0px "> </tspan>TO<tspan x="54.672px " y="0px ">O</tspan>LS</text>
+    </g>
+    <path d="M1483,252C1486.863,252 1490,255.137 1490,259L1490,321C1490,324.863 1486.863,328 1483,328L1137,328C1133.137,328 1130,324.863 1130,321L1130,259C1130,255.137 1133.137,252 1137,252L1483,252Z" style="fill:rgb(220,252,231);stroke:rgb(134,239,172);stroke-width:1.6px;"/>
+    <g transform="matrix(1,0,0,1,1310,281)">
+        <text x="-53.359px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,32,51);">receive_raw<tspan x="32.016px 36.461px " y="0px 0px ">.p</tspan>y</text>
+    </g>
+    <g transform="matrix(1,0,0,1,1310,305)">
+        <text x="-127.773px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(75,89,105);">Receive and validate UAR<tspan x="58.703px 68.188px 72.633px " y="0px 0px 0px ">T p</tspan>ackets</text>
+    </g>
+    <path d="M1483,370C1486.863,370 1490,373.137 1490,377L1490,439C1490,442.863 1486.863,446 1483,446L1137,446C1133.137,446 1130,442.863 1130,439L1130,377C1130,373.137 1133.137,370 1137,370L1483,370Z" style="fill:rgb(220,252,231);stroke:rgb(134,239,172);stroke-width:1.6px;"/>
+    <g transform="matrix(1,0,0,1,1310,399)">
+        <text x="-43.574px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,32,51);">Capture File</text>
+    </g>
+    <g transform="matrix(1,0,0,1,1310,423)">
+        <text x="-151.637px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(75,89,105);">Raw samples and metadata stored as .npz</text>
+    </g>
+    <path d="M1288,508C1291.863,508 1295,511.137 1295,515L1295,606C1295,609.863 1291.863,613 1288,613L1137,613C1133.137,613 1130,609.863 1130,606L1130,515C1130,511.137 1133.137,508 1137,508L1288,508Z" style="fill:rgb(220,252,231);stroke:rgb(134,239,172);stroke-width:1.6px;"/>
+    <g transform="matrix(1,0,0,1,1212,540)">
+        <text x="-54.703px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,32,51);">plot_capture.py</text>
+    </g>
+    <g transform="matrix(1,0,0,1,1212,566)">
+        <text x="-46.383px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(75,89,105);">T<tspan x="-37.203px -33.648px " y="0px 0px ">im</tspan>e-domain</text>
+    </g>
+    <g transform="matrix(1,0,0,1,1212,586)">
+        <text x="-61.801px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(75,89,105);">waveform display</text>
+    </g>
+    <path d="M1483,508C1486.863,508 1490,511.137 1490,515L1490,606C1490,609.863 1486.863,613 1483,613L1332,613C1328.137,613 1325,609.863 1325,606L1325,515C1325,511.137 1328.137,508 1332,508L1483,508Z" style="fill:rgb(220,252,231);stroke:rgb(134,239,172);stroke-width:1.6px;"/>
+    <g transform="matrix(1,0,0,1,1407,540)">
+        <g transform="matrix(16,0,0,16,14.855469,0)">
+        </g>
+        <g transform="matrix(16,0,0,16,19.128906,0)">
+        </g>
+        <text x="-49.191px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,32,51);">analyse_ﬀt.py</text>
+    </g>
+    <g transform="matrix(1,0,0,1,1407,566)">
+        <text x="-65.219px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(75,89,105);">FFT<tspan x="-36.188px -31.742px " y="0px 0px "> a</tspan>nd dominant</text>
+    </g>
+    <g transform="matrix(1,0,0,1,1407,586)">
+        <text x="-73.816px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(75,89,105);">frequency estimation</text>
+    </g>
+    <path d="M1310,328L1310,370" style="fill:none;fill-rule:nonzero;stroke:rgb(5,150,105);stroke-width:2.3px;"/>
+    <path d="M1310,446L1310,476L1212,476L1212,508" style="fill:none;fill-rule:nonzero;stroke:rgb(5,150,105);stroke-width:2.3px;"/>
+    <path d="M1310,446L1310,476L1407,476L1407,508" style="fill:none;fill-rule:nonzero;stroke:rgb(5,150,105);stroke-width:2.3px;"/>
+    <path d="M220,288L302,288" style="fill:none;fill-rule:nonzero;stroke:rgb(55,65,81);stroke-width:2.5px;"/>
+    <path d="M548,532L600,532L600,285L670,285" style="fill:none;fill-rule:nonzero;stroke:rgb(55,65,81);stroke-width:2.5px;"/>
+    <g transform="matrix(0,1,-1,0,605.57923,405.171875)">
+        <text x="-36.895px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(75,89,105);">AFE_OUT</text>
+    </g>
+    <path d="M970,525L1075.746,525L1074.602,290L1130,290" style="fill:none;fill-rule:nonzero;stroke:rgb(5,150,105);stroke-width:2.5px;"/>
+    <g transform="matrix(0,1,-1,0,1077.217421,407.296875)">
+        <text x="-57.945px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(75,89,105);">UAR<tspan x="-24.453px -14.969px -10.523px " y="0px 0px 0px ">T o</tspan>ver USB</text>
+    </g>
+    <g transform="matrix(0.448007,0,0,1,149.038057,0)">
+        <path d="M947.679,675C959.998,675 970,679.481 970,685L970,727C970,732.519 959.998,737 947.679,737L292.321,737C280.002,737 270,732.519 270,727L270,685C270,679.481 280.002,675 292.321,675L947.679,675Z" style="fill:rgb(249,250,251);stroke:rgb(156,163,175);stroke-width:1.6px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,300,704)">
+        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,32,51);">3.3 V Power Subsystem</text>
+    </g>
+    <g transform="matrix(1,0,0,1,300,724)">
+        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(75,89,105);">Provides the supply rail for the <tspan x="218.781px 229.453px " y="0px 0px ">AF</tspan>E.</text>
+    </g>
+    <path d="M425,675L425,620" style="fill:none;fill-rule:nonzero;stroke:rgb(107,114,128);stroke-width:1.8px;"/>
+    <path d="M1148,838C1153.519,838 1158,842.481 1158,848L1158,926C1158,931.519 1153.519,936 1148,936L452,936C446.481,936 442,931.519 442,926L442,848C442,842.481 446.481,838 452,838L1148,838Z" style="fill:white;stroke:rgb(203,213,225);stroke-width:1.4px;"/>
+    <g transform="matrix(1,0,0,1,470,869)">
+        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(23,32,51);">Legend</text>
+    </g>
+    <path d="M565,864L620,864" style="fill:none;fill-rule:nonzero;stroke:rgb(55,65,81);stroke-width:2.4px;"/>
+    <g transform="matrix(1,0,0,1,635,869)">
+        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(75,89,105);">Analog signal</text>
+    </g>
+    <path d="M785,864L840,864" style="fill:none;fill-rule:nonzero;stroke:rgb(37,99,235);stroke-width:2.4px;"/>
+    <g transform="matrix(1,0,0,1,855,869)">
+        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(75,89,105);">Internal digital data</text>
+    </g>
+    <path d="M565,905L620,905" style="fill:none;fill-rule:nonzero;stroke:rgb(5,150,105);stroke-width:2.4px;"/>
+    <g transform="matrix(1,0,0,1,635,910)">
+        <g transform="matrix(16,0,0,16,240.101562,0)">
+        </g>
+        <g transform="matrix(16,0,0,16,244.546875,0)">
+        </g>
+        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(75,89,105);">Host communication / processing ﬂow</text>
+    </g>
+    <path d="M982,905L1037,905" style="fill:none;fill-rule:nonzero;stroke:rgb(107,114,128);stroke-width:2.1px;"/>
+    <g transform="matrix(1,0,0,1,1050,910)">
+        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;fill:rgb(75,89,105);">Power</text>
+    </g>
+</svg>
