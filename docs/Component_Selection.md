@@ -141,6 +141,17 @@ The generated VBIAS is buffered using an MCP6022 voltage follower before being d
 The 10 nF capacitor provides AC coupling at the AFE input. It blocks the DC component of the incoming signal while allowing the target AC signal to pass to the amplifier stage.
 
 
+## Input Bias Resistor
+
+### Selected component
+
+1 × 1.6 MΩ resistor
+
+### Selection Rationale
+
+A 1.6 MΩ resistor connects the AC-coupled input node to the buffered 1.65V VBIAS reference. It provides a DC bias path after the input coupling capacitor. This establishes the input common-mode voltage required for single-supply operation while allowing the external signal to remain AC-coupled.
+
+
 ## Gain-Stage High-Pass Capacitor
 
 ### Selected Component
