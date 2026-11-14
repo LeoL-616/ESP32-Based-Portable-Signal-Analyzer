@@ -182,7 +182,7 @@ The LC filter can exhibit resonance due to energy exchange between the inductor 
 
 Several resistance values were evaluated through simulation. Increasing the resistance reduced the resonant peak but also introduced greater attenuation near the upper end of the useful frequency range.
 
-The final value was selected as 4.3 Ω
+The final value was selected as 4.3 Ω.
 
 This value provides a suitable compromise between damping the LC resonance and preserving the desired high-frequency response.
 
