@@ -4,7 +4,7 @@
 
 ## 1. Architecture Diagram
 
-
+![System architecture](diagrams/architecture_diagram.svg)
 
 
 
