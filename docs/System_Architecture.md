@@ -176,6 +176,26 @@ Functions include:
 - Estimating signal frequencies.
 
 
-## 5. Data Flow
+## 4. Data Flow
 
-## 6. Design Considerations
+The system data flow is shown below:
+
+```text
+Signal Source
+      ↓
+Analog Front-End
+      ↓
+ESP32 Data Acquisition System
+      ↓
+UART-over-USB
+      ↓
+Python Host Tools
+      ↓
+Waveform and FFT Analysis
+```
+The system-level data flow describes the movement of a signal from its source to host-side analysis.
+
+Detailed ADC acquisition, packetisation, and capture-file handling are documented in the [ADC README](../ADC/README.md#data-path).
+
+
+
