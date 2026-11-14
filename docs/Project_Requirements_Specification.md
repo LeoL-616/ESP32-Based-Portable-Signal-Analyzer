@@ -75,7 +75,7 @@ The system shall provide software tools to:
 The hardware system shall include:
 
 - A microcontroller with ADC capability.
-- An analog front end based by an operational amplifier, a low-pass filter, and a bias current circuit.
+- An analog front end based on an operational amplifier, a low-pass filter, and a voltage-bias reference circuit.
 - Communication interface between hardware and computer.
 - A prototype PCB for the final design.
 
