@@ -74,7 +74,7 @@ The Python-based software shall provide:
 - Time-domain waveform visualisation.
 - Frequency-domain analysis using FFT.
 - Dominant frequency estimation.
-- Optional data storage for offline analysis.
+- Captured samples are stored as NPZ files for offline waveform and FFT analysis.
 
 
 ## 6. Performance Targets
